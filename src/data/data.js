@@ -13,21 +13,21 @@ export const personalInfo = {
       degree: "High School Diploma",
       fieldOfStudy: "General Education",
       startYear: 2010,
-      endYear: 2013,
+      endYear: 2014,
     },
     {
       institution: "Raritan Valley Community College, Raritan, NJ",
       degree: "Associate Degree",
       fieldOfStudy: "Computer Science",
-      startYear: 2015,
-      endYear: 2017,
+      startYear: 2017,
+      endYear: 2020,
     },
     {
       institution: "Rowan University, Glassboro, NJ",
       degree: "Bachelor's Degree",
       fieldOfStudy: "Computer Science",
-      startYear: 2017,
-      endYear: 2019,
+      startYear: 2022,
+      endYear: 2024,
     },
   ];
   
