@@ -5,9 +5,7 @@ import Footer from './components/Footer';
 import PersonalInfo from './components/PersonalInfo';
 import Education from './components/Education';
 import Skills from './components/Skills';
-import RealTimeData from './components/RealTimeData';
 import Contact from './components/Contact';
-import ContactForm from './components/ContactForm';
 import WeatherAndQuote from './components/WeatherAndQuote';
 import { personalInfo, education, skills } from './data/data';
 
@@ -24,7 +22,7 @@ function App() {
             <li><a href="#personal-info">Personal Info</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#real-time-data">Real Time Data</a></li>
+            <li><a href="#weatherandquote">Real Time Data</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -34,9 +32,7 @@ function App() {
         <PersonalInfo personalInfo={personalInfo} />
         <Education education={education} />
         <Skills skills={skills} />
-        <RealTimeData />
         <Contact />
-        <ContactForm />
         <WeatherAndQuote />
       </main>
       
