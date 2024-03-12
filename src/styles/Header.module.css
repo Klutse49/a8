@@ -1,0 +1,28 @@
+.header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+}
+
+.navUl {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+.navItem {
+    margin-right: 20px;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+}

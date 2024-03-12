@@ -1,0 +1,13 @@
+.personalInfo {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.profilePicture {
+    width: 150px;
+    border: 3px solid #ff7f50;
+    display: block;
+    margin-top: 20px;
+}
