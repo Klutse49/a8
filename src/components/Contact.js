@@ -2,10 +2,10 @@ import React from 'react';
 import styles from './Contact.module.css'; 
 
 const Contact = () => {
-  // Function to handle form submission
+  
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Add logic to process and send form data
+    
     alert('Form submitted!'); 
   };
 
