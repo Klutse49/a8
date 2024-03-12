@@ -9,7 +9,7 @@ import RealTimeData from './components/RealTimeData';
 import Contact from './components/Contact';
 
 
-import { personalInfo, education, skills } from './data'; 
+import { personalInfo, education, skills } from './data/data'; 
 
 function App() {
   return (
