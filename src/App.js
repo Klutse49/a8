@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import { ThemeProvider, useTheme } from './context/ThemeContext';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HeroSection from './components/HeroSection';
@@ -11,7 +12,11 @@ import Contact from './components/Contact';
 import { personalInfo, education, skills } from './data/data';
 
 function App() {
+
+  const { theme } = useTheme();
+
   return (
+    <ThemeProvider>
     <div className="App">
       <Header />
 
@@ -40,6 +45,7 @@ function App() {
       
       <Footer />
     </div>
+    </ThemeProvider>
   );
 }
 

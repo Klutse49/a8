@@ -55,6 +55,17 @@
   header h1 {
       font-size: 20px;
   }
-
  
+}
+
+/* Default light theme */
+:root {
+  --background-color: #fff;
+  --text-color: #000;
+}
+
+/* Dark theme overrides */
+[data-theme='dark'] {
+  --background-color: #333;
+  --text-color: #fff;
 }
