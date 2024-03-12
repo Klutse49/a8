@@ -1,19 +1,21 @@
 import React from 'react';
 import './App.css';
-
-
+import Header from './components/Header';
+import Footer from './components/Footer';
 import PersonalInfo from './components/PersonalInfo';
 import Education from './components/Education';
 import Skills from './components/Skills';
 import RealTimeData from './components/RealTimeData';
 import Contact from './components/Contact';
+import ContactForm from './components/ContactForm';
+import WeatherAndQuote from './components/WeatherAndQuote';
+import { personalInfo, education, skills } from './data/data';
 
-
-import { personalInfo, education, skills } from './data/data'; 
 
 function App() {
   return (
     <div className="App">
+      
       <header className="App-header">
         <h1>Cyril Klutse</h1>
         <nav>
@@ -34,6 +36,8 @@ function App() {
         <Skills skills={skills} />
         <RealTimeData />
         <Contact />
+        <ContactForm />
+        <WeatherAndQuote />
       </main>
       
       <footer>
