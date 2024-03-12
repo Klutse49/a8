@@ -9,5 +9,14 @@
     width: 150px;
     border: 3px solid #ff7f50;
     display: block;
-    margin-top: 20px;
+    margin: 20px auto; 
+}
+
+.personalInfo ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+.personalInfo li {
+    margin-bottom: 10px; 
 }

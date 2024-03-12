@@ -3,6 +3,7 @@
     list-style-type: none; 
   }
   
+
   .education li {
     counter-increment: section; 
     margin-bottom: 15px; 

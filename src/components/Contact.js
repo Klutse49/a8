@@ -38,7 +38,7 @@ const Contact = () => {
         <section className={styles.contact}>
             <h2>Contact Me</h2>
             {formErrors.length > 0 && (
-                <div className={styles.errorMessages}>
+                <div className={styles.errorMessage}>
                     {formErrors.map((error, index) => (
                         <p key={index}>{error}</p>
                     ))}

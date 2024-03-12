@@ -1,34 +1,40 @@
 .footer {
-    background-color: #003366; 
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-  }
-  
-  .socialLinks {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .socialLinks a {
-    display: inline-block;
-    margin: 0 10px;
-    color: white; 
-    text-decoration: none; 
-    transition: color 0.3s ease; 
-  }
-  
-  .socialLinks a:hover {
-    color: #ffcc00; 
-  }
-  
-  h2 {
-    margin-bottom: 15px; 
-  }
-  
-  p {
-    margin: 5px 0; 
-  }
-  
+  background-color: #003366;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerNav {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0; 
+}
+
+.navItem {
+  display: inline; 
+  margin: 0 10px; 
+}
+
+.navLink {
+  color: #ffffff;
+  text-decoration: none; 
+}
+
+.navLink:hover {
+  text-decoration: underline; 
+}
+
+.contactInfo h2 {
+  margin: 10px 0; 
+}
+
+.socialLinks a {
+  color: #ffffff; 
+  margin-right: 10px; 
+  text-decoration: none; 
+}
+
+.socialLinks a:hover {
+  text-decoration: underline; 
+}

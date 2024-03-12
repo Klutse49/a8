@@ -1,0 +1,40 @@
+.hero {
+    position: relative;
+    background: url('../img/happy-640w.jpg') no-repeat center center; 
+    background-size: cover;
+    height: 50vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; 
+  }
+  
+  .heroContent {
+    text-align: center;
+    max-width: 90%;
+  }
+  
+  
+  h1 {
+    font-size: 2.5rem; 
+    font-weight: bold;
+    margin: 0 0 1rem 0; 
+  }
+  
+  
+  p {
+    font-size: 1.2rem;
+    margin: 0; 
+  }
+  
+ 
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2rem; 
+    }
+    
+    p {
+      font-size: 1rem;
+    }
+  }
+  

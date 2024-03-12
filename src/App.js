@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import Header from './components/Header'; 
-import Footer from './components/Footer'; 
+import Header from './components/Header';
+import Footer from './components/Footer';
+import HeroSection from './components/HeroSection';
 import PersonalInfo from './components/PersonalInfo';
 import Education from './components/Education';
 import Skills from './components/Skills';
@@ -12,17 +13,32 @@ import { personalInfo, education, skills } from './data/data';
 function App() {
   return (
     <div className="App">
-      <Header /> 
+      <Header />
+
+      <div id="hero">
+        <HeroSection />
+      </div>
       
-      <main>
+      <div id="personal-info">
         <PersonalInfo personalInfo={personalInfo} />
-        <Education education={education} />
-        <Skills skills={skills} />
-        <WeatherAndQuote />
-        <Contact />
-      </main>
+      </div>
       
-      <Footer /> 
+      <div id="education">
+        <Education education={education} />
+      </div>
+      
+      <div id="skills">
+        <Skills skills={skills} />
+      </div>
+   
+      <div id="weatherandquote">
+        <WeatherAndQuote />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
+      
+      <Footer />
     </div>
   );
 }

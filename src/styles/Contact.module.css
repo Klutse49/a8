@@ -49,3 +49,14 @@ input:focus, select:focus, textarea:focus {
 .submitButton:hover {
     background-color: #2980b9;
 }
+
+.errorMessage {
+    color: red; 
+    font-weight: bold; 
+    margin: 10px 0; 
+  }
+  
+  .successMessage {
+    color: green; 
+    margin: 10px 0; 
+  }
