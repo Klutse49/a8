@@ -1,9 +1,7 @@
 import React from 'react';
 import styles from '../styles/Header.module.css'; 
-import { useTheme } from '../context/ThemeContext';
 
 const Header = () => {
-  const { toggleTheme } = useTheme();
   return (
     <header className={styles.header}>
       <h1>Cyril Klutse</h1>
@@ -17,11 +15,9 @@ const Header = () => {
           <li className={styles.navItem}><a href="#contact" className={styles.navLink}>Contact</a></li>
         </ul>
       </nav>
-      <button onClick={toggleTheme}>Toggle Theme</button>
     </header>
   );
 };
 
 export default Header;
-
 
