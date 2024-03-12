@@ -5,7 +5,7 @@ const Skills = ({ skills }) => {
   return (
     <section className={styles.skills}>
       <h2>Skills and Experience</h2>
-      <table>
+      <table className={styles.skillsTable}> 
         <thead>
           <tr>
             <th>Skill</th>
@@ -17,8 +17,8 @@ const Skills = ({ skills }) => {
           {skills.map((skill, index) => (
             <tr key={index}>
               <td>{skill.name}</td>
-              <td>{skill.proficiency}</td>
-              <td>{skill.expertise}</td>
+              <td>{skill.details.join(', ')}</td> 
+              <td>{skill.level}</td>
             </tr>
           ))}
         </tbody>
