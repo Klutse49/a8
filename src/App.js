@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.css'; 
 
-
 import PersonalInfo from './components/PersonalInfo';
 import Education from './components/Education';
 import Skills from './components/Skills';

@@ -6,8 +6,8 @@ const RealTimeData = () => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const apiKey = "YOUR_API_KEY_HERE"; // Replace with your API key
-      const url = `https://api.openweathermap.org/data/2.5/weather?q=London&appid=${apiKey}&units=metric`;
+      
+      const url = 'https://api.open-meteo.com/v1/forecast?latitude=39.9526&longitude=-74.9927&current_weather=true';
 
       try {
         const response = await fetch(url);
@@ -19,7 +19,7 @@ const RealTimeData = () => {
     };
 
     fetchData();
-  }, []); // The empty array means this effect runs once after the initial render
+  }, []); 
 
   return (
     <section className={styles.realTimeData}>
