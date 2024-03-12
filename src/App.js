@@ -1,11 +1,15 @@
 import React from 'react';
-import './App.css'; 
+import './App.css';
+
 
 import PersonalInfo from './components/PersonalInfo';
 import Education from './components/Education';
 import Skills from './components/Skills';
 import RealTimeData from './components/RealTimeData';
 import Contact from './components/Contact';
+
+
+import { personalInfo, education, skills } from './data'; 
 
 function App() {
   return (
@@ -25,9 +29,9 @@ function App() {
       </header>
       
       <main>
-        <PersonalInfo />
-        <Education />
-        <Skills />
+        <PersonalInfo personalInfo={personalInfo} />
+        <Education education={education} />
+        <Skills skills={skills} />
         <RealTimeData />
         <Contact />
       </main>
