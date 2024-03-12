@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import styles from '..styles/RealTimeData.module.css';
+import styles from '../styles/RealTimeData.module.css';
 
 const RealTimeData = () => {
   const [data, setData] = useState(null);
