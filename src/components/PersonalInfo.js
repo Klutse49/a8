@@ -2,6 +2,9 @@ import React from 'react';
 import styles from '../styles/PersonalInfo.module.css'; 
 
 const PersonalInfo = ({ personalInfo }) => {
+
+  const imagePath = personalInfo.profilePicture || '/img/portfolio/profile.jpg'; 
+
   return (
     <section className={styles.personalInfo}>
       <h2>Personal Information</h2>
