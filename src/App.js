@@ -7,6 +7,7 @@ import PersonalInfo from './components/PersonalInfo';
 import Education from './components/Education';
 import Skills from './components/Skills';
 import WeatherAndQuote from './components/WeatherAndQuote';
+import WeatherWidget from './components/WeatherWidget';
 import Contact from './components/Contact';
 import { personalInfo, education, skills } from './data/data';
 
@@ -34,6 +35,7 @@ function App() {
    
       <div id="weatherandquote">
         <WeatherAndQuote />
+        <WeatherWidget city="Maple Shade" /> 
       </div>
       <div id="contact">
         <Contact />

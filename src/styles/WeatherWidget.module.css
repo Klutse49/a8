@@ -1,0 +1,21 @@
+.widget {
+    padding: 20px;
+    margin: 20px auto; /* Center the widget */
+    max-width: 300px; /* Or adjust based on your layout */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .widget h2 {
+    margin-bottom: 15px;
+    color: #3498db; /* Adjust color to fit your theme */
+    font-size: 1.25rem;
+  }
+  
+  .widget p {
+    margin: 5px 0;
+    color: #333; /* Dark grey for text for readability */
+  }
+  

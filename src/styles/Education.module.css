@@ -1,24 +1,39 @@
-.education ol {
-    padding-left: 0;
-    list-style-type: none; 
+.education li {
+  /* counter-increment: section; Removed to stop numbering */
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 4px;
+  position: relative;
+  padding-left: 20px; /* Consider adjusting if centering content */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: box-shadow 0.3s ease;
+  width: 100%; /* Default width for mobile-first design */
+  text-align: center; /* Center align the text */
+}
+
+/* Remove the ::before selector to stop custom numbering */
+/* .education li::before {
+  Removed content
+} */
+
+.education li:hover {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+@media (min-width: 768px) {
+  .education ol {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center; /* Center the items in the container */
   }
-  
 
   .education li {
-    counter-increment: section; 
-    margin-bottom: 15px; 
-    background-color: #f9f9f9; 
-    padding: 10px; 
-    border-radius: 4px; 
-    position: relative; 
-    padding-left: 20px; 
+      width: calc(50% - 20px); /* Adjust based on your design */
+      margin: 10px;
+      /* If you want to ensure padding is equal on all sides to maintain centering */
+      padding-left: 10px; /* Adjust padding to match other sides if necessary */
+      padding-right: 10px; /* Ensure equal padding on right for symmetry */
   }
-  
-  .education li::before {
-    content: counter(section) ". "; 
-    position: absolute;
-    left: 0; 
-    top: 10px; 
-    font-weight: bold; 
-  }
-  
+}

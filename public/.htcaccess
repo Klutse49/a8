@@ -1,5 +1,5 @@
 Options -MultiViews
 ReWriteEngine On
 ReWriteBase elvis.rowan.edu/~klutse49/TestList/
-ReWriteRule ^index\.html$ - [L]
-ReWriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule . /~klutse49/TestList/index.html [L]
